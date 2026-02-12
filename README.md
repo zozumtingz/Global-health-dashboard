@@ -1,46 +1,23 @@
 
-# Global Health Dashboard
+# Global Health Indicators Analysis 
 
-Python project analyzing the relationship between smoking prevalence and life expectancy using global health data.
+This project analyzes the statistical correlation between **Smoking Prevalence** and various health metrics (e.g., **Life Expectancy**, **Obesity Rates**) across different nations.
 
-## Objectives
+## Features
+- **Robust Ingestion:** Handles corrupted CSV/Excel files and multiple encodings.
+- **Data Integration:** Merges World Health Organization (WHO) data with localized health statistics.
+- **Statistical Visualization:** Generates professional-grade scatter plots with linear regression analysis.
+- **Interactive UI:** Users can select different health metrics for comparative analysis.
 
-* Explore global smoking trends
-* Compare smoking rates with life expectancy
-* Identify correlations between public health indicators
+## Tech Stack
+- **Language:** Python 3.13
+- **Libraries:** Pandas, Matplotlib, NumPy, Openpyxl
+- **Standardization:** ISO-3 Country Code mapping
 
-## Dataset
-
-* Tobacco prevalence dataset (WHO / Global Health Observatory)
-
-## Tools & Libraries
-
-* Python
-* Pandas
-* Matplotlib
-* NumPy
-
-## Analysis Performed
-
-* Data cleaning and preprocessing
-* Merging multiple datasets
-* Correlation analysis
-* Scatter plot visualization
-* Regression line modeling
-
-## Key Insight
-
-Smoking prevalence shows a negative correlation with life expectancy in multiple regions.
+## Sample Output
+![Analysis Result](Report_Smoking_vs_Life_Expectancy.png)
 
 ## How to Run
-
-```bash
-python health_analysis.py
-```
-
-## Output
-
-* Scatter plot: Smoking vs Life Expectancy
-* Correlation coefficient
-* Regression trend line
-
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the analysis: `python health_analysis.py`
