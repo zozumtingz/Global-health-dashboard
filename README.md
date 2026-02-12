@@ -14,9 +14,6 @@ This project analyzes the statistical correlation between **Smoking Prevalence**
 - **Libraries:** Pandas, Matplotlib, NumPy, Openpyxl
 - **Standardization:** ISO-3 Country Code mapping
 
-## Sample Output
-![Analysis Result](Report_Smoking_vs_Life_Expectancy.png)
-
 ## How to Run
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
