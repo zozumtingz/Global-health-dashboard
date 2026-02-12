@@ -1,4 +1,4 @@
-# Global-health-dashboard
+
 # Global Health Dashboard
 
 Python project analyzing the relationship between smoking prevalence and life expectancy using global health data.
